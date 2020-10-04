@@ -70,7 +70,6 @@ For this purpose, a local production-like testing environment is going to be set
 
 ```
 cd ~/<git_root_folder>/simpleapp
-`
 ```
 
 
