@@ -14,11 +14,16 @@ tr:first-child {
 	font-weignt: bold;
 	background-color: #c6c9c4
 }
+h1{
+	text-align: center;
+}
 </style>
 </head>
 <body>
 	<div class="container">
-		<h2>All Registered Students</h2>
+		<h1>SEE project of Venkateshwaran Thamilselvan</h1>
+
+		<h2>Students list</h2>
 		<c:if test="${not empty success}">
 			<div class="alert alert-success" role="alert">${success}</div>
 		</c:if>
