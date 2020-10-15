@@ -152,16 +152,26 @@ user and password: admin
 
 ## Run the application
 
-To run the application, go to the directory 
+1. To run the application, go to the directory 
 
 ```
 cd ~/<git_root_folder>/simpleapp
 ```
+2. Build the project by running the following command
+```
+mvn clean install
+```
 
-and run the following command
+3. Run the following command
 
 ```
 vagrant up
+```
+
+4. Run the following command inside the VM
+
+```
+sudo sh /vagrant_scripts/deploy-snapshot.sh
 ```
 
 ## Test the application
